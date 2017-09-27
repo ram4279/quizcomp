@@ -1,0 +1,57 @@
+Jquery notes
+
+syntax: $('selector').method()
+
+jQuery (or) $ -Used to define jQuery function
+
+selectors
+
+parent > child
+ancestor descendant
+sibling + sibling
+adjacent ~ adjacent
+
+special selector
+ attribute[attribute(options)=value]
+ options = 
+ $ - ends with
+ ^ - starts with
+ * - contains anywhere
+ ~ -  match exactly given word
+
+
+
+
+
+
+
+
+form selectors
+ syntax: $(":form-attribute")
+ form-attribute list : input,text,button,submit,reset,checked etc
+
+
+
+
+
+
+jQuery filers:
+syntax:$("attribute1:options")
+
+first : selects first dom element
+last
+eq(index)
+not(selector)
+odd(index)
+even(index)
+gt(index)
+lt(index)
+
+Similarly
+
+first-child
+last-child
+nth-child(n|odd|even)
+only-child()-selects only if the parent has only one child
+
+ 
